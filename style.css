@@ -1,9 +1,4 @@
-/* ===========================
-   Professional Resume Template
-   Black & White Design
-   =========================== */
 
-/* RESET AND BASE STYLES */
 * {
     margin: 0;
     padding: 0;
@@ -23,7 +18,6 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
 }
 
-/* CONTAINER & LAYOUT */
 .container {
     max-width: 850px;
     margin: 0 auto;
@@ -59,7 +53,6 @@ h1, h2, h3, h4, h5, h6 {
     padding-left: 5px;
 }
 
-/* HEADER SECTION */
 .header {
     text-align: center;
     padding-bottom: 12px;
@@ -111,7 +104,6 @@ h1, h2, h3, h4, h5, h6 {
     color: #666666;
 }
 
-/* Social Links */
 .social-links {
     display: flex;
     justify-content: center;
@@ -145,7 +137,6 @@ h1, h2, h3, h4, h5, h6 {
     color: #666666;
 }
 
-/* ABOUT SECTION */
 .summary-text {
     font-size: 10.5pt;
     color: #000000;
@@ -153,7 +144,6 @@ h1, h2, h3, h4, h5, h6 {
     text-align: justify;
 }
 
-/* EDUCATION SECTION */
 .education-item {
     margin-bottom: 15px;
     page-break-inside: avoid;
@@ -209,7 +199,7 @@ h1, h2, h3, h4, h5, h6 {
     padding-left: 5px;
 }
 
-/* SKILLS SECTION */
+
 .skills-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -236,7 +226,7 @@ h1, h2, h3, h4, h5, h6 {
     padding-left: 11px;
 }
 
-/* PROJECTS SECTION */
+
 .project-item {
     margin-bottom: 15px;
     page-break-inside: avoid;
@@ -278,7 +268,6 @@ h1, h2, h3, h4, h5, h6 {
     text-decoration: underline;
 }
 
-/* COMPETITIVE PROGRAMMING SECTION */
 .programming-list {
     list-style-type: none;
     padding-left: 0;
@@ -327,7 +316,6 @@ h1, h2, h3, h4, h5, h6 {
     color: #000000;
 }
 
-/* RESPONSIVE DESIGN */
 @media screen and (max-width: 640px) {
     .container {
         padding: 20px 15px;
@@ -372,7 +360,6 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 
-/* PRINT STYLES */
 @media print {
     .container {
         max-width: 100%;
